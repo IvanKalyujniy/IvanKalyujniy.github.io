@@ -1,0 +1,162 @@
+.accordion {
+  position: relative;
+}
+
+.accordion .trigger #checkbox-1,
+.accordion .trigger #checkbox-2,
+.accordion .trigger #checkbox-3,
+.accordion .trigger #checkbox-4 {
+  display: none;
+}
+
+.accordion .trigger #checkbox-1:checked + label,
+.accordion .trigger #checkbox-2:checked + label,
+.accordion .trigger #checkbox-3:checked + label,
+.accordion .trigger #checkbox-4:checked + label {
+  background-color: #ffcc00;
+  color: #ba0000;
+}
+
+.accordion .trigger #checkbox-1:checked + label i:before,
+.accordion .trigger #checkbox-2:checked + label i:before,
+.accordion .trigger #checkbox-3:checked + label i:before,
+.accordion .trigger #checkbox-4:checked + label i:before {
+  background-color: #ba0000;
+}
+
+.accordion .trigger #checkbox-1:checked + label i:after,
+.accordion .trigger #checkbox-2:checked + label i:after,
+.accordion .trigger #checkbox-3:checked + label i:after,
+.accordion .trigger #checkbox-4:checked + label i:after {
+  background-color: #ba0000;
+}
+
+.accordion .trigger #checkbox-1:checked + label i:before,
+.accordion .trigger #checkbox-2:checked + label i:before,
+.accordion .trigger #checkbox-3:checked + label i:before,
+.accordion .trigger #checkbox-4:checked + label i:before {
+  transform: translate(5px, 8px) rotate(45deg);
+}
+
+.accordion .trigger #checkbox-1:checked + label i:after,
+.accordion .trigger #checkbox-2:checked + label i:after,
+.accordion .trigger #checkbox-3:checked + label i:after,
+.accordion .trigger #checkbox-4:checked + label i:after {
+  transform: translate(-5px, 8px) rotate(-45deg);
+}
+
+.accordion .trigger .checkbox {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #ba0000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.accordion .trigger .checkbox i {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+}
+
+.accordion .trigger .checkbox i:before,
+.accordion .trigger .checkbox i:after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 3px;
+  background-color: white;
+  transition: transform 250ms ease;
+}
+
+.accordion .trigger .checkbox i:before {
+  transform: translate(-5px, 8px) rotate(45deg);
+}
+.accordion .trigger .checkbox i:after {
+  transform: translate(5px, 8px) rotate(-45deg);
+}
+
+.accordion .trigger .content {
+  position: relative;
+  max-height: 1px;
+  padding: 0;
+  overflow-y: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #a30000;
+  transition: max-height 500ms ease-in-out;
+}
+
+.accordion .trigger .content h3 {
+  margin: 30px 0 15px 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.accordion .trigger .content p {
+  margin: 0 0 10px 50px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+}
+
+.accordion .trigger .content p::before {
+    font-family: 'icomoon';
+    content: "\f0da";
+    font-size: 20px;
+    color: #ffcc00;
+    position: absolute;
+    top: -3px;
+    left: -18px;
+  }
+
+.accordion .trigger .content p:last-child {
+    padding-bottom: 20px;
+}
+
+.accordion .trigger .content span {
+  color: #ffcc00;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#checkbox-1:checked ~ .content,
+#checkbox-2:checked ~ .content,
+#checkbox-3:checked ~ .content,
+#checkbox-4:checked ~ .content {
+  max-height: 350px;
+  transition: max-height 500ms ease-in-out;
+}
+
+.accordion {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.trigger {
+  margin-bottom: 20px;
+  border: 2px solid white;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-right: 0;
+}
+
+.trigger-border {
+  border-color: #ffcc00;
+}

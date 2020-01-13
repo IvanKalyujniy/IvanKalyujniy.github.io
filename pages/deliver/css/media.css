@@ -1,0 +1,197 @@
+@media (max-width: 1156px) {
+  .services-content h4 {
+    font-size: 18px;
+  }
+
+  .provider-content {
+    margin-top: 97px;
+  }
+
+  footer ul {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header-contact-center {
+    text-align: center;
+  }
+
+  .header-contact-center-item {
+    display: none;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-content {
+    text-align: center;
+  }
+
+  .header-item {
+    display: none;
+  }
+
+  .services {
+    text-align: center;
+  }
+
+  .services-content img {
+    margin-top: 50px;
+  }
+
+  .services-location {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .services-location-item {
+    display: none;
+  }
+
+  .services-location h4 {
+    padding-left: 0;
+  }
+
+  .services-location p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .services-location .jq-selectbox {
+    margin-left: 0;
+  }
+
+  .provider {
+    height: 100%;
+    background-image: none;
+  }
+
+  .provider h1 {
+    color: #ba0000;
+    margin-top: 0;
+  }
+
+  .provider-content {
+    text-align: center;
+  }
+
+  .provider-content-items {
+    box-shadow: none;
+  }
+
+  .provider-content h2 {
+    margin-left: 0;
+  }
+
+  .provider-content li {
+    padding-left: 0;
+  }
+
+  .provider-content ul {
+    padding-left: 0;
+  }
+
+  .provider-content li::before {
+    display: none;
+  }
+
+  .express-logistic {
+    margin-top: 100px;
+  }
+
+  .express-logistic img {
+    margin-top: 50px;
+  }
+
+  .learn-more {
+    text-align: center;
+  }
+
+  .learn-more p:last-child {
+    margin-bottom: 30px;
+  }
+
+  .learn-more-btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .images {
+    display: none;
+  }
+
+  footer ul {
+    border-bottom: 2px solid #ba0000;
+    padding-bottom: 15px;
+  }
+
+  .p0 img {
+    display: none;
+  }
+
+  .services-top img {
+    display: none;
+  }
+
+  .logistic {
+    border:2px solid #ba0000;
+  }
+
+  .express {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    height: 100%;
+  }
+
+  nav img {
+    margin-top: 15px;
+  }
+
+  .menu {
+    margin-top: 25px;
+  }
+
+  .menu li {
+    display: block;
+    text-align: center;
+  }
+
+  .menu li a {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .menu li a:hover {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-content h4 {
+    font-size: 15px;
+  }
+
+  .header-content span {
+    padding: 0;
+  }
+
+  .wordwilde-btn {
+    margin-left: 0;
+  }
+
+  .learn-btn {
+    margin-bottom: 20px;
+  }
+
+  .btn-explore {
+    margin-left: 0;
+  }
+}
