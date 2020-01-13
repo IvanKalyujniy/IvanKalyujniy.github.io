@@ -1,0 +1,128 @@
+@media (max-width: 1156px) {
+  nav ul li {
+    margin-left: 10px;
+  }
+
+  .widget-line {
+    width: 200px;
+  }
+}
+
+@media (max-width: 990px) {
+  .menu {
+    height: 50px;
+    position: relative;
+    left: -150%;
+    display: flex;
+    flex-flow: column;
+    background-image: linear-gradient(to top, #211b19, #4e3427);
+  }
+
+  .menu li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    padding: 19px 0;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  .nav-logo {
+    text-align-last: left;
+  }
+  
+  .p0 {
+    padding: 0;
+  }
+
+  .menu li a {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .header-slider {
+    margin-top: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    margin-top: 50px;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    display: none;
+  }
+
+  .services-hover {
+    margin-bottom: 50px;
+  }
+
+  .realization {
+    margin-top: 40px;
+  }
+
+  .wordpress {
+    text-align: center;
+  }
+
+  .wordpress h1,
+  .wordpress p {
+    text-align: center;
+  }
+
+  .wordpress-btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .mobile {
+    margin-top: 20px;
+  }
+
+  .mobile img {
+    display: none;
+  }
+
+  .counts img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .counts-item {
+    margin-bottom: 30px;
+  }
+
+  .posts {
+    display: none;
+  } 
+
+  .logo img  {
+    margin-bottom: 70px;
+  }
+
+  .post-widget {
+    margin-top: 70px;
+  }
+
+  .twitter-widget {
+    margin-top: 70px;
+  }
+
+  .dribble-widget {
+    display: none;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  p.left {
+    text-align: center;
+  }  
+}
