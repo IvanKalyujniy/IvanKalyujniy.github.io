@@ -12,7 +12,7 @@
   .content__top-btn {
     width: 100%;
   }
-  
+
   .navbar {
     position: relative;
     padding: 0;
@@ -30,11 +30,6 @@
 
   nav {
     height: 100%;
-  }
-
-  .navbar {
-    position: relative;
-    padding: 0;
   }
 
   nav ul {
@@ -61,13 +56,13 @@
     display: none;
   }
 
-  .content__top-btn {
-    width: 100%;
-  }
-
   .subscribe_btn,
   .articles_btn {
     margin: 0 0 20px 0;
+  }
+
+  .content__bottom-btn {
+    width: 100%;
   }
 
   .advertisement__btn {
@@ -80,5 +75,23 @@
 
   .copyright img {
     display: none;
+  }
+
+  h4 {
+    margin-top: 35px;
+  }
+
+  .footer__links {
+    display: block !important;
+  }
+
+  footer ul {
+    padding: 0;
+    border-bottom: 1px solid #df2c32;
+    padding-bottom: 10px;
+  }
+
+  footer ul.p0 {
+    padding-bottom: 10px;
   }
 }
