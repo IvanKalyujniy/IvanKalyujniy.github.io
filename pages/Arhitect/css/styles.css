@@ -159,11 +159,12 @@ input {
   font-size: 14px;
   color: #fff;
   position: relative;
+  margin-top: 10px;
 }
 
 .menu-btn span {
   width: 40%;
-  height: 1px;
+  height: 2px;
   background-color: #fff;
   position: absolute;
   left: 17px;
