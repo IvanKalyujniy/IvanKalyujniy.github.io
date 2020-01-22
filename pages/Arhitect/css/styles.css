@@ -142,11 +142,6 @@ input {
   font-size: 22px;
 }
 
-input:focus {
-  width: 250px;
-  border-bottom: 1px solid #fff;
-}
-
 .active__input {
   width: 250px;
   border-bottom: 1px solid #fff;
@@ -163,17 +158,65 @@ input:focus {
 .menu-btn {
   font-size: 14px;
   color: #fff;
+  position: relative;
 }
 
-.menu-btn i {
-  font-size: 16px;
+.menu-btn span {
+  width: 40%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  transition: all 0.3s ease 0s;
 }
+
+.menu-btn::before,
+.menu-btn::after {
+  content: "";
+  width: 40%;
+  height: 2px;
+  position: absolute;
+  left: 17px;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+}
+
+.menu-btn::after {
+  top: 6px;
+  bottom: 0;
+}
+
+.menu-btn::before {
+  top: -6px;
+}
+
+.menu-btn.active__menu-btn::before {
+  transform: rotate(45deg);
+  top: 6px;
+  width: 45%;
+}
+
+.menu-btn.active__menu-btn::after {
+  transform: rotate(-45deg);
+  bottom: 6px;
+  width: 45%;
+}
+
+.menu-btn.active__menu-btn span {
+  background-color: transparent;
+}
+
+.menu-btn.active__menu-btn p {
+  color: transparent;
+}
+
 
 .menu-btn p {
   color: #fff;
   font-weight: 600;
   padding: 0;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 .social {
