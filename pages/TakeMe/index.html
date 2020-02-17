@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TakeMe</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/jquery.formstyler.css" />
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/star-rating.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="">
+              <div class="logo">
+                TakeMe
+              </div>
+            </div>
+            <div class="">
+              <div class="main_menu">
+                <ul>
+                  <li><a href="#">Locations</a></li>
+                  <li><a href="#">Accommodation</a></li>
+                  <li><a href="#">Travel Guides</a></li>
+                  <li><a href="#">Where To Stay</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Log In</a></li>
+                </ul>
+              </div>
+              <div class="menu__btn">
+                <button id="mobile__menu-btn"></button>
+                <div class="mobile__menu-text">
+                  MENU
+                </div>
+                <div class="mobile__menu-close">
+                  CLOSE
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 110px; transition: 1.2s ease-in; z-index: 2;"
+          >
+            <div class="mobile__menu__item"><a href="#">Locations</a></div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 175px; transition: 1s ease-in; z-index: 1;"
+          >
+            <div class="mobile__menu__item"><a href="#">Accommodation</a></div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 240px; transition: .8s ease-in;"
+          >
+            <div class="mobile__menu__item"><a href="#">Travel Guides</a></div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 305px; transition: .6s ease-in;"
+          >
+            <div class="mobile__menu__item"><a href="#">Where To Stay</a></div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 370px; transition: .4s ease-out;"
+          >
+            <div class="mobile__menu__item"><a href="#">Contact Us</a></div>
+          </div>
+          <div
+            class="mobile__menu"
+            style="top: 435px; transition: .2s ease-out; border-bottom: none;"
+          >
+            <div class="mobile__menu__item"><a href="#">Log In</a></div>
+          </div>
+        </div>
+      </nav>
+      <div class="header__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h1>Find Your Dream Vacation Location</h1>
+              <p>
+                Search hundreds of locations from around the world and find your
+                perfect vacation location.
+              </p>
+            </div>
+            <div class="col-lg-7"></div>
+          </div>
+        </div>
+
+        <form action="">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <input
+                  type="text"
+                  placeholder="Country or ZIP code"
+                  id="header_input_country"
+                  class="color-text"
+                />
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <select name="header_select" id="header_select">
+                  <option>Transportation</option>
+                  <option>-------------</option>
+                  <option>-------------</option>
+                  <option>-------------</option>
+                </select>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <input
+                  type="text"
+                  placeholder="Number of people"
+                  id="header_input_people"
+                  class="color-text"
+                />
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <button type="submit" class="header_form_btn" id="btn">
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- SLIDER -->
+    <section class="slider mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Magical Santorini Greece’s Jewel</h2>
+            <p>
+              Candy-colored houses carved into cliffs, sapphire waters, gleaming
+              white buildings topped with half-spheres the color of a stormy
+              sky.
+            </p>
+            <button type="submit" class="slider__btn" id="btn">
+              Explore More
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <div class="owl-carousel owl-theme owl-carousel-location">
+              <div class="slider__item">
+                <img src="img/img1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img2.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img2.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img2.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img2.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="slider__item">
+                <img src="img/img2.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SLIDER -->
+
+    <!-- LOCATIONS -->
+    <section class="locations mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/img4.png" alt="" class="img-fluid" />
+            <h3>Magical Paris</h3>
+            <p>
+              City of light, one of the most famous cities in the world is
+              waiting to be explored. Some of the most famous museums, food and
+              landmarks are waiting for you in Paris.
+            </p>
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-top: 40px;"
+            >
+              <div>
+                <input
+                  class="rating rating-loading kv-svg"
+                  data-min="0"
+                  data-max="5"
+                  data-step="0.1"
+                  value="4.5"
+                  data-size="xs"
+                />
+              </div>
+              <div class="rating__numbers">2436 Ratings</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/img5.png" alt="" class="img-fluid" />
+            <h3>Classic London</h3>
+            <p>
+              City of history, one of the most famous cities in the world is
+              waiting to be explored. Some of the most famous museums, food,
+              pubs and landmarks are waiting for you in London.
+            </p>
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-top: 40px;"
+            >
+              <div>
+                <input
+                  class="rating rating-loading kv-svg"
+                  data-min="0"
+                  data-max="5"
+                  data-step="0.1"
+                  value="4.5"
+                  data-size="xs"
+                />
+              </div>
+              <div class="rating__numbers">5438 Ratings</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/img6.png" alt="" class="img-fluid" />
+            <h3>Famous New York</h3>
+            <p>
+              City of fashion and yellow cabs, one of the most famous cities in
+              the world is waiting to be explored. The most famous museums, food
+              and landmarks are waiting for you in New York.
+            </p>
+            <div
+              class="d-flex justify-content-between align-items-center"
+              style="margin-top: 40px;"
+            >
+              <div>
+                <input
+                  class="rating rating-loading kv-svg"
+                  data-min="0"
+                  data-max="5"
+                  data-step="0.1"
+                  value="4.5"
+                  data-size="xs"
+                />
+              </div>
+              <div class="rating__numbers">1243 Ratings</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LOCATIONS -->
+
+    <!-- SLIDER-ACTIVITIES -->
+    <section class="slider-avtivites mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="owl-carousel owl-theme owl-carousel-activities">
+              <div class="slider-activites__item slider-activites__item1">
+                <div class="slider-activites__item-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4"
+                    data-size="xs"
+                  />
+                  126 Visited
+                </div>
+                <div class="slider-activites__item-text">
+                  <p>Professional Guides</p>
+                  <h3>Sea Voyages</h3>
+                </div>
+              </div>
+              <div class="slider-activites__item slider-activites__item2">
+                <div class="slider-activites__item-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4"
+                    data-size="xs"
+                  />
+                  241 Visited
+                </div>
+                <div class="slider-activites__item-text">
+                  <p>Expert Drivers</p>
+                  <h3>Quad Riders</h3>
+                </div>
+              </div>
+              <div class="slider-activites__item slider-activites__item3">
+                <div class="slider-activites__item-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4"
+                    data-size="xs"
+                  />
+                  296 Visited
+                </div>
+                <div class="slider-activites__item-text">
+                  <p>Safe Guides</p>
+                  <h3>Mountain Climbs</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SLIDER-ACTIVITIES -->
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2>Subscribe to our newsletter</h2>
+            <p>
+              And receive all the latest news, discounts and updates about the
+              most visited locations from around the globe, daily.
+            </p>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <button type="submit" class="subscribe__btn" id="btn">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SUBSCRIBE -->
+
+    <!-- CONTACT -->
+    <section class="contact mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Contact Us</h2>
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <label for="FirstName">
+                    <p>First Name</p>
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      id="FirstName"
+                    />
+                  </label>
+                </div>
+                <div class="col">
+                  <label for="">
+                    <p>Last Name</p>
+                    <input type="text" placeholder="Last Name" />
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="">
+                    <p>Email</p>
+                    <input type="email" placeholder="Email" />
+                  </label>
+                </div>
+                <div class="col">
+                  <label for="">
+                    <p>Phone</p>
+                    <input type="text" placeholder="Phone" />
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label>
+                    <p>Message</p>
+                    <textarea placeholder="Your message" required></textarea>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                  <button class="contact__btn" id="btn">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
+            <img src="img/img10.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+
+    <!-- REVIEWS -->
+    <section class="reviews mt">
+      <div class="container">
+        <div
+          class="reviews__top d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <p>Reviews (256)</p>
+          </div>
+          <div>
+            <select name="reviews_select" id="reviews_select">
+              <option value="">Sort</option>
+              <option value="">-------------</option>
+              <option value="">-------------</option>
+              <option value="">-------------</option>
+              <option value="">-------------</option>
+            </select>
+            <button id="reviews_btn">Post A Review</button>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="d-flex justify-content-center">
+                  <img src="img/avatar 1.png" alt="" class="img-fluid" />
+                  <div class="person">
+                    <p>
+                      Anna Marksson <br />
+                      Visited Las Vegas
+                    </p>
+                    <input
+                      class="rating rating-loading kv-svg"
+                      data-min="0"
+                      data-max="5"
+                      data-step="0.1"
+                      value="4.5"
+                      data-size="xs"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 reviews__item-border">
+                <div style="margin-bottom: 10px;"></div>
+                <b>We had a lovely time </b> <br />
+                <b>02.17.2017</b>
+                <blockquote>
+                  “I don’t know where to start. It was simply amazing! From the
+                  time we got there to the staff at our hotel, to our Uber
+                  driver, to the meals at our restaurant, i can’t wait until we
+                  visit Las Vegas again!”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="d-flex justify-content-center">
+                  <img src="img/avatar 2.png" alt="" class="img-fluid" />
+                  <div class="person">
+                    <p>
+                      Edward Signim <br />
+                      Visited Rome
+                    </p>
+                    <input
+                      class="rating rating-loading kv-svg"
+                      data-min="0"
+                      data-max="5"
+                      data-step="0.1"
+                      value="4.5"
+                      data-size="xs"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 reviews__item-border">
+                <div style="margin-bottom: 10px;"></div>
+                <b>Magical Rome! </b> <br />
+                <b>02.16.2017</b>
+                <blockquote>
+                  “Everybody knows how much history this city has, but we were
+                  not prepared by just how much it is! At every single corner
+                  you can find a piece of history that is there for thousands of
+                  years. If you didn’t visit, what you are waiting for?”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="d-flex justify-content-center">
+                  <img src="img/avatar3.png" alt="" class="img-fluid" />
+                  <div class="person">
+                    <p>
+                      Jenna Miles <br />
+                      Visited Belgrade
+                    </p>
+                    <input
+                      class="rating rating-loading kv-svg"
+                      data-min="0"
+                      data-max="5"
+                      data-step="0.1"
+                      value="4.5"
+                      data-size="xs"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 reviews__item-border">
+                <div style="margin-bottom: 10px;"></div>
+                <b>Where Sava meets Danube </b> <br />
+                <b>02.15.2017</b>
+                <blockquote>
+                  “This city is nothing what i expected. Such a lively place,
+                  full of color, wonderful people and fantastic food. Service is
+                  lovely and my tour guide showed me much more than it was
+                  planned, simply because he is amazing at his job! I can’t wait
+                  to go back!”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item" style="border-bottom: 2px solid #e2e2e2;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="d-flex justify-content-center">
+                  <img src="img/avatar4.png" alt="" class="img-fluid" />
+                  <div class="person">
+                    <p>
+                      Jonathan Bright <br />
+                      Visited Tahiti
+                    </p>
+                    <input
+                      class="rating rating-loading kv-svg"
+                      data-min="0"
+                      data-max="5"
+                      data-step="0.1"
+                      value="4.5"
+                      data-size="xs"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 reviews__item-border">
+                <div style="margin-bottom: 10px;"></div>
+                <b>White sand, blue skies </b> <br />
+                <b>02.14.2017</b>
+                <blockquote>
+                  “When we got there it was raining, but after it stopped, it
+                  was lovely! Temperature is pleasant and i loved their free
+                  wifi zones. If you have, bring your camera because you are
+                  going to need it, a lot.”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <button class="review_btn-bottom" id="btn">Load More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEWS -->
+
+    <!-- TAGS -->
+    <section class="tags mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>
+              Where do you want to travel today?
+            </h3>
+          </div>
+        </div>
+        <div class="tags__content">
+          <div class="d-flex justify-content-between">
+            <div class="tags__input">
+              <form action="">
+                <label for="">
+                  <input type="text" placeholder="USA" />
+                </label>
+                <label for="">
+                  <input
+                    type="text"
+                    placeholder="New York"
+                    style="width: 135px;"
+                  />
+                </label>
+                <label for="">
+                  <input type="text" placeholder="City Life" />
+                </label>
+                <label for="">
+                  <input type="text" placeholder="Cheap" />
+                </label>
+              </form>
+            </div>
+            <div class="tags__links">
+              <a href="#" class="tags__links-active">List View</a>
+              <a href="#">Map View</a>
+              <select name="" id="tags__select">
+                <option value="">Sort By</option>
+                <option value="">-------------</option>
+                <option value="">-------------</option>
+                <option value="">-------------</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TAGS -->
+
+    <!-- NEW-YORK -->
+    <section class="new-york_trevel">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="new-york_trevel__item">
+              <div
+                class="d-flex justify-content-between new-york_trevel__item-top"
+              >
+                <div>
+                  <b>New York Skyline Tour</b> <br />
+                  <b>The best of New York</b>
+                </div>
+                <div class="new-york_trevel__item-top-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4.5"
+                    data-size="xs"
+                  />
+                  <p>146 Reviews</p>
+                </div>
+              </div>
+              <div class="new-york_trevel__item-img">
+                <img src="img/img11.png" alt="" class="img-fluid" />
+                <div class="new-york_trevel__item-img-price"><p>$15</p></div>
+              </div>
+              <div class="new-york_trevel__item-text">
+                <p>
+                  Take a look at New York from above, the best way to see this
+                  city. You will find all the classic buildings, sights and more
+                  plus there is a lunch after the tour.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center new-york_trevel__item-btn"
+              >
+                <div class="new-york_trevel__item-btn-icon">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <p>126 spaces left</p>
+                </div>
+                <div>
+                  <button class="new-york_trevel-btn" id="btn">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="new-york_trevel__item">
+              <div
+                class="d-flex justify-content-between new-york_trevel__item-top"
+              >
+                <div>
+                  <b>New York City</b> <br />
+                  <b>Walking tour</b>
+                </div>
+                <div class="new-york_trevel__item-top-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4.5"
+                    data-size="xs"
+                  />
+                  <p>292 Reviews</p>
+                </div>
+              </div>
+              <div class="new-york_trevel__item-img">
+                <img src="img/img12.png" alt="" class="img-fluid" />
+                <div class="new-york_trevel__item-img-price"><p>$19</p></div>
+              </div>
+              <div class="new-york_trevel__item-text">
+                <p>
+                  Take a look at New York from the street level, walk like a New
+                  Yorker. You will see all the classic things, sights and more
+                  plus there is a lunch after the tour.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center new-york_trevel__item-btn"
+              >
+                <div class="new-york_trevel__item-btn-icon">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <p>243 spaces left</p>
+                </div>
+                <div>
+                  <button class="new-york_trevel-btn" id="btn">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="new-york_trevel__item">
+              <div
+                class="d-flex justify-content-between new-york_trevel__item-top"
+              >
+                <div>
+                  <b>New York City</b> <br />
+                  <b>The Food Tour</b>
+                </div>
+                <div class="new-york_trevel__item-top-rating">
+                  <input
+                    class="rating rating-loading kv-svg"
+                    data-min="0"
+                    data-max="5"
+                    data-step="0.1"
+                    value="4.5"
+                    data-size="xs"
+                  />
+                  <p>381 Reviews</p>
+                </div>
+              </div>
+              <div class="new-york_trevel__item-img">
+                <img src="img/img13.png" alt="" class="img-fluid" />
+                <div class="new-york_trevel__item-img-price"><p>$25</p></div>
+              </div>
+              <div class="new-york_trevel__item-text">
+                <p>
+                  Learn where are all the best places to eat in this city, how
+                  to find your way around thousands of great and tasty
+                  restaurants and lear New York trough it’s food.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center new-york_trevel__item-btn"
+              >
+                <div class="new-york_trevel__item-btn-icon">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <p>110 spaces left</p>
+                </div>
+                <div>
+                  <button class="new-york_trevel-btn" id="btn">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NEW-YORK -->
+
+    <!-- FORM -->
+    <form class="form">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="form__select">
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Language Spoken</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Meal Type</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Excursions</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Hotel Type</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Room Type</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Rent A Car</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div class="form__select-item">
+                <select name="" id="form__select">
+                  <option value="">Shuttle Transport</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+              <div>
+                <select name="" id="form__select">
+                  <option value="">Parking</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                  <option value="">-------------</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="d-flex flex-column justify-content-between form__middle-column"
+            >
+              <div class="form__destinations form__bg">
+                <div class="d-flex justify-content-between">
+                  <h5>Destinations</h5>
+                  <button></button>
+                </div>
+                <hr />
+                <p>Europe</p>
+                <p>Asia</p>
+                <p>Africa</p>
+                <p>North America</p>
+                <p>South America</p>
+              </div>
+              <div class="form__trip-type form__bg">
+                <h5>Trip Type</h5>
+                <label for="round">
+                  <input
+                    type="radio"
+                    id="round"
+                    name="radio-trip-type"
+                    checked
+                  />
+                  Round Trip
+                </label>
+                <br />
+                <label for="oneway">
+                  <input type="radio" id="oneway" name="radio-trip-type" />
+                  One Way
+                </label>
+              </div>
+              <div class="form__class form__bg">
+                <div class="d-flex justify-content-around">
+                  <label for="firstclass">
+                    <input type="radio" id="firstclass" name="radio-class" />
+                    First Class
+                  </label>
+                  <label for="buisness">
+                    <input type="radio" id="buisness" name="radio-class" />
+                    Business
+                  </label>
+                  <label for="coach">
+                    <input type="radio" id="coach" name="radio-class" checked />
+                    Coach
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="d-flex flex-column justify-content-between form__right-column"
+            >
+              <div class="form__question-text form__bg">
+                <input
+                  type="text"
+                  placeholder="Where country you want to go?"
+                  style="margin-bottom: 10px;"
+                />
+                <input type="text" placeholder="Where city you want to go?" />
+              </div>
+              <div class="form__range form__bg">
+                <h5>Price Range</h5>
+                <label for="">
+                  <input
+                    type="text"
+                    class="js-range-slider"
+                    name="my_range"
+                    value=""
+                    data-type="double"
+                    data-min="0"
+                    data-max="5000"
+                    data-from="20"
+                    data-to="4000"
+                    data-grid="false"
+                  />
+                </label>
+              </div>
+              <div class="form__carry-on form__bg">
+                <label for="withoutcarry">
+                  <input type="radio" id="withoutcarry" name="carryon" />
+                  Without Carry On
+                </label>
+                <br />
+                <label for="withcarry">
+                  <input type="radio" id="withcarry" name="carryon" checked />
+                  With Carry On
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="form__footer">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <a href="#">
+                    <button>
+                      <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <a href="#">
+                    <button>
+                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- FORM -->
+
+    <!-- MAP -->
+    <section class="map">
+      <div class="container-fluid p0">
+        <div class="row no-gutters">
+          <div class="col-lg-12">
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad8b44a2ae360d01ed733cbce372413d56d3f64978c46b2339a32bd3993340e1b&amp;width=100%25&amp;height=458&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MAP -->
+
+    <!-- DUBAI -->
+    <section class="dubai">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>See Dubai from the sky</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <div class="dubai__item" style="position: relative;">
+              <div
+                class="d-flex"
+                style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"
+              >
+                <div style="margin: auto;">
+                  <button>
+                    <i class="fa fa-play-circle" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <img src="img/img14.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </section>
+    <!-- DUBAI -->
+
+    <!-- APP -->
+    <section class="app mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="img/iphone.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-8">
+            <h2>Download Our Free App!</h2>
+            <p>
+              Download our free app and stay up to date with all our latest
+              discounts, articles and reviews. Take a look at all the world’s
+              top destinations and decide where to spend your perfect vacation.
+            </p>
+            <button class="app__button" id="btn">Download Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- APP -->
+
+    <!-- FOOTER -->
+    <footer class="mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-between footer__menu">
+              <button id="footer__menu-btn">Menu</button>
+              <div class="footer__menu-item">
+                <h6>
+                  Company
+                </h6>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Our App</a></li>
+                  <li><a href="#">Site Map</a></li>
+                </ul>
+              </div>
+              <div class="footer__menu-item">
+                <h6>
+                  Useful Links
+                </h6>
+                <ul>
+                  <li><a href="#">Travel Safe</a></li>
+                  <li><a href="#">Stay Healthy</a></li>
+                  <li><a href="#">Flight Monitor</a></li>
+                  <li><a href="#">Booking List</a></li>
+                  <li><a href="#">Lost Lugage</a></li>
+                  <li><a href="#">World Clock</a></li>
+                </ul>
+              </div>
+              <div class="footer__menu-item">
+                <h6>
+                  For Companies
+                </h6>
+                <ul>
+                  <li><a href="#">Advertise With Us</a></li>
+                  <li><a href="#">How It Works</a></li>
+                  <li><a href="#">Pricing Models</a></li>
+                  <li><a href="#">VAT Numbers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
+            <div class="footer__subscibe">
+              <h6>Stay in Touch</h6>
+              <div class="footer__subscibe-form">
+                <form action="">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <input type="text" placeholder="Your Email" />
+                    </div>
+                    <div>
+                      <button
+                        type="submit"
+                        class="footer__subscibe-form-btn"
+                        id="btn"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <ul class="footer__subscibe-social">
+                <li>
+                  <a href="#">
+                    <button>
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <button>
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><button>
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><button>
+                      <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <p>© 2017 TakeMe Free UI Kit</p>
+            </div>
+            <div class="copyright__privacy">
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#"> Cookies Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/star-rating.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/ion.rangeSlider.js"></script>
+    <script>
+      $(function() {
+        $(
+          "#header_select, #reviews_select, #tags__select, #form__select, #form__select, #round, #oneway, #firstclass, #buisness, #coach, #withoutcarry, #withcarry"
+        ).styler();
+      });
+    </script>
+    <script>
+      $(".owl-carousel-location").owlCarousel({
+        items: 2,
+        loop: false,
+        dots: true,
+        nav: false,
+        margin: 27
+      });
+    </script>
+    <script>
+      $(".owl-carousel-activities").owlCarousel({
+        items: 3,
+        loop: true,
+        dots: false,
+        nav: true,
+        margin: 30,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 1500,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          700: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    </script>
+    <script>
+      $(".kv-svg").rating({
+        theme: "krajee-svg",
+        filledStar: '<span class="krajee-icon krajee-icon-star"></span>',
+        emptyStar: '<span class="krajee-icon krajee-icon-star"></span>'
+      });
+    </script>
+    <script>
+      $(".js-range-slider").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 1000,
+        from: 200,
+        to: 500,
+        grid: true
+      });
+    </script>
+    <script>
+      $("document").ready(function() {
+        $(".menu__btn").click(function() {
+          $(this).toggleClass("active");
+          $(".mobile__menu").toggleClass("active");
+        });
+      });
+    </script>
+    <script>
+      $("#footer__menu-btn").on("click", function() {
+        $(".footer__menu ul").slideToggle();
+      });
+    </script>
+  </body>
+</html>

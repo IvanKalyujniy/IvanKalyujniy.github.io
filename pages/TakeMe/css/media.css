@@ -1,0 +1,246 @@
+@media (max-width: 1156px) {
+  .slider-activites__item-text h3 {
+    font-size: 30px;
+    margin-top: 4px;
+  }
+
+  .new-york_trevel__item-btn-icon p {
+    font-size: 12px;
+  }
+
+  .app h2 {
+    margin-top: 103px;
+  }
+
+  .app__button {
+    margin-top: 20px;
+  }
+
+  .footer__subscibe-form-btn {
+    padding: 0 30px;
+  }
+
+  .main_menu {
+    display: none;
+  }
+
+  .menu__btn {
+    display: block;
+    margin-top: 25px;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header__content {
+    height: 100%;
+  }
+
+  .header__content {
+    margin-top: 10px;
+  }
+
+  .header__content p {
+    width: 100%;
+  }
+
+  #header_input_country,
+  #header_input_people,
+  .header_form_btn,
+  header .header__content .jq-selectbox {
+    margin-bottom: 30px;
+  }
+
+  .slider h2 {
+    margin-top: 50px;
+  }
+
+  .slider p {
+    width: 100%;
+  }
+
+  .slider__btn {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .locations {
+    padding: 0 0 40px 0;
+  }
+
+  .locations h3 {
+    margin-top: 15px;
+    margin-bottom: 13px;
+  }
+
+  .locations img {
+    margin-top: 80px;
+  }
+
+  .slider-avtivites .owl-carousel .owl-nav {
+    display: none;
+  }
+
+  .contact input {
+    padding-left: 10px;
+  }
+
+  .contact__btn {
+    width: 100%;
+  }
+
+  .contact img {
+    display: none;
+  }
+
+  .reviews__top {
+    padding-top: 20px;
+  }
+
+  .reviews__top p {
+    display: none;
+  }
+
+  #reviews_btn {
+    margin-top: 10px;
+  }
+
+  .reviews .reviews__top .jq-selectbox {
+    width: 172px;
+    margin-bottom: 5px;
+  }
+
+  .reviews__item .person p {
+    font-size: 13px;
+  }
+
+  .tags__input {
+    display: none;
+  }
+
+  .tags__links {
+    display: block;
+  }
+
+  .new-york_trevel__item {
+    margin-bottom: 40px;
+  }
+
+  .form__middle-column {
+    margin: 30px 0;
+  }
+
+  .form__footer {
+    height: 100%;
+    text-align: center;
+  }
+
+  .form__footer {
+    margin-top: 10px;
+  }
+
+  .form__footer ul {
+    margin-top: 30px;
+  }
+
+  .form__footer button {
+    margin: 30px 10px;
+  }
+
+  .app img {
+    display: none;
+  }
+
+  .app h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .app__button {
+    margin-bottom: 45px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .tags .tags__content .tags__links .jq-selectbox {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .new-york_trevel__item-btn-icon {
+    display: none;
+  }
+
+  .form__question-text input {
+    font-size: 13px;
+  }
+
+  .form__footer ul li {
+    margin-left: 10px;
+  }
+
+  .form__footer button {
+    margin: 30px 10px;
+    font-size: 15px;
+  }
+
+  .footer__menu {
+    display: block !important;
+  }
+
+  .footer__menu-item {
+    margin-top: 20px;
+  }
+
+  #footer__menu-btn {
+    display: block;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #3ec6ff;
+    color: #fff;
+  }
+
+  .footer__menu ul,
+  .footer__menu h6 {
+    display: none;
+  }
+
+  .footer__menu ul {
+    text-align: center;
+    background-color: #3ec6ff;
+    border-radius: 6px;
+    padding: 20px;
+  }
+
+  .footer__menu ul li:first-child {
+    margin-top: 0;
+  }
+
+  .footer__menu ul li a {
+    color: #fff;
+  }
+
+  .footer__subscibe {
+    margin-top: 30px;
+  }
+
+  .footer__subscibe-social li {
+    margin-right: 10px;
+  }
+
+  .copyright__privacy ul li {
+    margin-right: 0;
+  }
+}
